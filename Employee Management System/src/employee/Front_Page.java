@@ -15,7 +15,7 @@ class Front_Page implements ActionListener{
         f.setBackground(Color.red);
         f.setLayout(null);
         
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Employee/icons/front.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("employee/icons/front.jpg"));
         Image i2 = i1.getImage().getScaledInstance(1200,700,Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel l1 = new JLabel(i3);
