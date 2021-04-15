@@ -11,8 +11,8 @@ class Front_Page implements ActionListener{
     JButton b;
     
     Front_Page(){
-        f = new JFrame("EMS");
-        f.setBackground(Color.red);
+        f = new JFrame("Ronok");
+        f.setBackground(Color.black);
         f.setLayout(null);
         
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("employee/icons/front.jpg"));
@@ -38,7 +38,7 @@ class Front_Page implements ActionListener{
         JLabel lid = new JLabel("EMPLOYEE MANAGEMENT SYSTEM");
         lid.setBounds(80,30,1500,100);
         lid.setFont(new Font("serif",Font.PLAIN,70));
-        lid.setForeground(Color.red);
+        lid.setForeground(Color.black);
         id.add(lid);
         
         id.add(b);
